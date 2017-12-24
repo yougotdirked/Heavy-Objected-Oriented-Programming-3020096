@@ -1,0 +1,152 @@
+﻿Build started 20-9-2017 13:16:01.
+     1>Project "C:\Users\Dirk\Documents\HKU\HOOP\Ex1\Ex1\Ex1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Ex1.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Docent.cpp Ex1.cpp Module_.cpp Student.cpp
+         Student.cpp
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\module_.h(17): error C2065: 'Student' : undeclared identifier
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\module_.h(17): error C2059: syntax error : '>'
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\module_.h(18): error C2065: 'Student' : undeclared identifier
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\module_.h(18): error C2059: syntax error : '>'
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\module_.h(18): error C2039: 'iterator' : is not a member of '`global namespace''
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\module_.h(23): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\student.h(7): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\student.h(19): error C2143: syntax error : missing ';' before '}'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(32): error C2143: syntax error : missing ';' before '{'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(33): error C2143: syntax error : missing ';' before '{'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(51): error C2947: expecting '>' to terminate template-argument-list, found '>'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(53): error C2143: syntax error : missing ';' before '{'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(56): error C2143: syntax error : missing ';' before '}'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(59): error C2947: expecting '>' to terminate template-argument-list, found '>'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(60): error C2146: syntax error : missing ';' before identifier '_Nrand'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(60): error C2061: syntax error : identifier '_Engine'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(63): warning C4183: '_Nrand': missing return type; assumed to be a member function returning 'int'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(671): error C2143: syntax error : missing ',' before '<'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(673) : see reference to class template instantiation 'Module_::_Is_numeric<_Ty>' being compiled
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(781): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(804) : see reference to class template instantiation 'Module_::linear_congruential<_Uint,_Ax,_Cx,_Mx>' being compiled
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(781): error C2143: syntax error : missing ',' before '&'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(787): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(787): error C2143: syntax error : missing ',' before '&'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(787): error C2535: 'void Module_::linear_congruential<_Uint,_Ax,_Cx,_Mx>::_Seed(_Gen &,const int)' : member function already defined or declared
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(781) : see declaration of 'Module_::linear_congruential<_Uint,_Ax,_Cx,_Mx>::_Seed'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(815): error C2804: binary 'operator ==' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(826): error C2804: binary 'operator !=' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(841): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(854): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1087): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1122) : see reference to class template instantiation 'Module_::_Swc_base<_Ty,_Sx,_Rx,_Swc_Traits>' being compiled
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1087): error C2143: syntax error : missing ',' before '&'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1096): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1096): error C2143: syntax error : missing ',' before '&'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1096): error C2535: 'void Module_::_Swc_base<_Ty,_Sx,_Rx,_Swc_Traits>::_Seed(_Gen &,bool,const int)' : member function already defined or declared
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1087) : see declaration of 'Module_::_Swc_base<_Ty,_Sx,_Rx,_Swc_Traits>::_Seed'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1132): error C2804: binary 'operator ==' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1142): error C2804: binary 'operator !=' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1158): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1171): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1177): error C2838: 'short_lag' : illegal qualified name in member declaration
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1183): error C2838: 'long_lag' : illegal qualified name in member declaration
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1421): error C2838: '_Cy' : illegal qualified name in member declaration
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1427): error C2838: '_Mod' : illegal qualified name in member declaration
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1432): error C2838: '_Max' : illegal qualified name in member declaration
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1438): error C2838: '_Scale1' : illegal qualified name in member declaration
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1444): error C2838: '_Mask' : illegal qualified name in member declaration
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1488): error C2838: 'word_size' : illegal qualified name in member declaration
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1703): error C2804: binary 'operator ==' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1714): error C2804: binary 'operator !=' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1727): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1738): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1941): error C2838: 'block_size' : illegal qualified name in member declaration
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1946): error C2838: 'used_block' : illegal qualified name in member declaration
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1956): error C2804: binary 'operator ==' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1966): error C2804: binary 'operator !=' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1978): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(1990): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2205): error C2804: binary 'operator ==' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2215): error C2804: binary 'operator !=' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2227): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2239): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2366): error C2804: binary 'operator ==' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2375): error C2804: binary 'operator !=' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2386): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2397): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2414): error C2143: syntax error : missing ';' before '<'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2583) : see reference to class template instantiation 'Module_::xor_combine<_Engine1,_S1,_Engine2,_S2>' being compiled
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2414): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2415): error C2238: unexpected token(s) preceding ';'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2437): error C2061: syntax error : identifier 'result_type'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2437): error C2535: 'Module_::xor_combine<_Engine1,_S1,_Engine2,_S2>::xor_combine(void)' : member function already defined or declared
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2420) : see declaration of 'Module_::xor_combine<_Engine1,_S1,_Engine2,_S2>::xor_combine'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2469): error C2061: syntax error : identifier 'result_type'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2470): error C2535: 'void Module_::xor_combine<_Engine1,_S1,_Engine2,_S2>::seed(void)' : member function already defined or declared
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2463) : see declaration of 'Module_::xor_combine<_Engine1,_S1,_Engine2,_S2>::seed'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2510): error C2061: syntax error : identifier 'min'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2511): error C2270: 'result_type' : modifiers not allowed on nonmember functions
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2511): error C2091: function returns function
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2511): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2513): warning C4183: 'result_type': missing return type; assumed to be a member function returning 'int'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2515): error C2061: syntax error : identifier 'max'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2516): error C2270: 'result_type' : modifiers not allowed on nonmember functions
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2516): error C2091: function returns function
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2516): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2518): warning C4183: 'result_type': missing return type; assumed to be a member function returning 'int'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2520): error C2143: syntax error : missing ';' before '('
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2520): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2521): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2581): error C2146: syntax error : missing ';' before identifier '_Min'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2581): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2581): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2582): error C2146: syntax error : missing ';' before identifier '_Max'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2582): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2582): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2589): error C2838: 'shift1' : illegal qualified name in member declaration
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2595): error C2838: 'shift2' : illegal qualified name in member declaration
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2607): error C2804: binary 'operator ==' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2618): error C2804: binary 'operator !=' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2631): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2644): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2802): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2812): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2987): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(2996): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(3125): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(3136): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(3325): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(3336): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(3537): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(3548): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(3696): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(3706): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(3882): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(3892): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(4089): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(4099): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(4307): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(4317): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(4471): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(4481): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(4632): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(4642): error C2804: binary 'operator <<' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(4793): error C2804: binary 'operator >>' has too many parameters
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\random(4793): fatal error C1003: error count exceeds 100; stopping compilation
+         Module_.cpp
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\student.h(15): error C2065: 'Module_' : undeclared identifier
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\student.h(18): error C2061: syntax error : identifier 'Module_'
+         Ex1.cpp
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\student.h(15): error C2065: 'Module_' : undeclared identifier
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\student.h(18): error C2061: syntax error : identifier 'Module_'
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\ex1.cpp(35): error C2660: 'Student::assignToModules' : function does not take 1 arguments
+     1>c:\users\dirk\documents\hku\hoop\ex1\ex1\ex1.cpp(50): error C2664: 'Ex1::printEC' : cannot convert parameter 1 from 'Student' to 'Student'
+                 Cannot copy construct class 'Student' due to ambiguous copy constructors or no available copy constructor
+         Generating Code...
+         Compiling...
+         Docent.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\Dirk\Documents\HKU\HOOP\Ex1\Ex1\Ex1.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.82
